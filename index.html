@@ -2,17 +2,20 @@
 <html>
 <head>
     <title>Adventures R Us Theme Park Survey Form</title>
-    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
     <h1 id="title">Adventures R Us Theme Park Survey Form</h1>
-    <p id="description">Thank you for visiting Adventure R Us, please take the time to fill out the survey to help us improve the park</p>
+    <p id="description">Thank you for visiting Adventure R Us, please take the time to fill out the survey to help us improve the park.</p>
+    <p><b>Note:</b>You must be between 18-100 years old to fill out this survey.</p>
     <form id="survey-form">
        <fieldset>
-           <label>
-               First Name: <input id="name" type="text" required/>
+           <label id="name-label">
+               First Name: <input id="name" type="text" placeholder="Type your first name" required>
             </label>
-            <label>Last Name: <input id="last-name"></label>
+            <label>Last Name: <input id="last-name" placeholder="Type your last name" required></label>
+            <label id="email-label">Email: <input type="email" placeholder="Type your Email address" required> </label>
+            <label id="number-label">Age: <input type="number" min="18" max="100" placeholder="Age" required></label>
        </fieldset>
     </form>
 </body>
