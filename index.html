@@ -13,7 +13,7 @@
            <label id="name-label">
                First Name: <input id="name" type="text" placeholder="Type your first name" required>
             </label>
-            <label>Last Name: <input id="last-name" placeholder="Type your last name" required></label>
+            <label>Last Name: <input id="last-name" placeholder="Type your last name" required></label><br>
             <label id="email-label">Email: <input type="email" placeholder="Type your e-mail address" required> </label>
             <label id="number-label">Age: <input type="number" min="18" max="100" placeholder="Age" required></label>
             <label>Date of Visit: <input type="text" placeholder="mm/dd/yyyy" required></label>
@@ -56,6 +56,12 @@
             <label><input type="checkbox"> More parking spaces</label><br>
             <label><input type="checkbox"> More washrooms</label>
         </fieldset>
+        <fieldset>
+            <label>Additional comments or suggestions:<br>
+                <textarea name="additional-comments" rows="4" cols="27"></textarea>
+            </label>
+        </fieldset>
+        <input type="submit" id="submit" value="Submit">
     </form>
 </body>
 </html>  
