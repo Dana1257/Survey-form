@@ -7,7 +7,7 @@
 <body>
     <h1 id="title">Adventures R Us Theme Park Survey Form</h1>
     <p id="description">Thank you for visiting Adventure R Us, please take the time to fill out the survey to help us improve the park.</p>
-    <p><b>Note:</b>You must be over <b>18</b> years of age to fill out this survey.</p>
+    <p><b>Note:</b>You must be 18 years of age or older to fill out this survey.</p>
     <form id="survey-form">
        <fieldset>
            <label id="name-label">
@@ -33,13 +33,16 @@
             </select>
         <fieldset>
             <label>Will you visit the park again this season?
-                <input type="radio" name="visit-again">Yes</label>
-                <input type="radio" name="visit-again">No</label>
-                <input type="radio" name="visit-again">Maybe/Undecided</label><br>
+                <label><input type="radio" name="visit-again">Yes</label>
+                <label><input type="radio" name="visit-again">No</label>
+                <label><input type="radio" name="visit-again">Maybe/Undecided</label><br>
             <label>Would you recommend that a friend/family member visit "Adventures R Us?"
                  <input type="radio" name="recommend">Yes</label>
-                 <input type="radio" name="recommend">No</label>
-                 <input type="radio" name="recommend">Maybe/Undecided</label>
+                 <label><input type="radio" name="recommend">No</label>
+                </label><input type="radio" name="recommend">Maybe/Undecided</label><br>
+            <label>Was this your first visit?
+                 <input type="radio" name="first-visit">Yes</label>
+                 <input type="radio" name="first-visit">No</label>
         </fieldset>
     </form>
 </body>
