@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8">
     <title>Adventures R Us Theme Park Survey Form</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
@@ -31,18 +32,27 @@
                 <option value="6">Billboard</option>
                 <option value="7">Other</option>
             </select>
+        </label>
         <fieldset>
-            <label>Will you visit the park again this season?
-                <input type="radio" name="visit-again">Yes</label>
-                <label><input type="radio" name="visit-again">No</label>
-                <label><input type="radio" name="visit-again">Maybe/Undecided</label><br>
-            <label>Would you recommend that a friend/family member visit "Adventures R Us?"
-                 <input type="radio" name="recommend">Yes</label>
-                 <label><input type="radio" name="recommend">No</label>
-                </label><input type="radio" name="recommend">Maybe/Undecided</label><br>
-            <label>Was this your first visit?
-                 <input type="radio" name="first-visit">Yes</label>
-                 <input type="radio" name="first-visit">No</label>
+            <p>Will you visit the park again this season?</p>
+            <input type="radio" id="visit-again" name="visit-again">
+            <label for="visit-again">Yes</label>
+            <input type="radio" name="visit-again">
+            <label for="visit-again">No</label>
+            <input type="radio" name="visit-again">
+            <label for="visit-again">Maybe/Undecided</label>
+            <p>Would you recommend that a friend/family member visit "Adventures R Us?"</p>
+            <input type="radio" id="recommend" name="recommend">
+            <label for="recommend">Yes</label>
+            <input type="radio" name="recommend">
+            <label for="recommend">No</label>
+            <input type="radio"  name="recommend">
+            <label for="recommend" name="recommend">Maybe/Undecided</label>
+            <p>Was this your first visit?</p>
+            <input type="radio" id="first-visit" name="first-visit">
+            <label for="first-visit">Yes</label>
+            <input type="radio" name="first-visit">
+            <label for="first-visit" name="first-visit">No</label>
         </fieldset>
         <fieldset>
             <label>What can we do to improve "Adventures R Us?"(choose all that apply)<br>
