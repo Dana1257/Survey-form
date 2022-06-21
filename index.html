@@ -11,17 +11,17 @@
     <p><b>Note:</b>You must be 18 years of age or older to fill out this survey.</p>
     <form id="survey-form">
        <fieldset>
-           <label id="name-label">First Name: <input id="name" type="text" placeholder="Type your first name" required>
+           <legend>Contact Info and General Information</legend>
+           <label id="name-label">First Name: <input id="name" type="text" placeholder="Enter your first name" required>
            </label>
-           <label>Last Name: <input id="last-name" type="text" placeholder="Type your last name" required></label><br>
-           <label id="email-label">Email: <input type="email" id="email" placeholder="Type your e-mail address" required> </label>
+           <label>Last Name: <input id="last-name" type="text" placeholder="Enter your last name" required></label><br>
+           <label id="email-label">Email: <input type="email" id="email" placeholder="Enter your e-mail address" required> </label>
            <label id="phone-label">Phone number: <input type="tel" id="phone" placeholder="(123) 456 - 7890" required></label>
            <label id="number-label">Age: <input id="number" type="number" min="18" max="100" placeholder="Age" required></label>
            <label>Date of Visit: <input type="date" name="date" value="2022-06-20" required></label>
-       </fieldset>
+       </fieldset><br><br>
        <fieldset>
-           <label>
-               How did your hear about "Adventures R Us?"
+               <legend>How did your hear about "Adventures R Us?"</legend>
             <select id="dropdown">
                 <option value="">Select One</option>
                 <option value="1">Newspaper</option>
@@ -32,9 +32,9 @@
                 <option value="6">Billboard</option>
                 <option value="7">Other</option>
             </select>
-        </label>
-    </fieldset>
-    <fieldset>
+       </fieldset><br><br>
+       <fieldset>
+            <legend>Visit Information</legend>
             <p>Will you visit the park again this season?</p>
             <input type="radio" id="visit-again" name="visit-again" value="1">
             <label for="visit-again">Yes</label>
@@ -54,7 +54,7 @@
             <label for="first-visit">Yes</label>
             <input type="radio" name="first-visit" value="8">
             <label for="first-visit">No</label>
-        </fieldset>
+        </fieldset><br><br>
         <fieldset>
             <label>What can we do to improve "Adventures R Us?"(choose all that apply)<br>
             <input type="checkbox" value="1"> More rides for kids</label><br>
