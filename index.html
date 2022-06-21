@@ -12,8 +12,7 @@
     <form id="survey-form">
        <fieldset>
            <legend>Contact Info and General Information</legend>
-           <label id="name-label">First Name: <input id="name" type="text" placeholder="Enter your first name" required>
-           </label>
+           <label id="name-label">First Name:<input id="name" type="text" placeholder="Enter your first name" required></label>
            <label>Last Name: <input id="last-name" type="text" placeholder="Enter your last name" required></label><br>
            <label id="email-label">Email: <input type="email" id="email" placeholder="Enter your e-mail address" required> </label>
            <label id="phone-label">Phone number: <input type="tel" id="phone" placeholder="(123) 456 - 7890" required></label>
@@ -56,7 +55,8 @@
             <label for="first-visit">No</label>
         </fieldset><br><br>
         <fieldset>
-            <label>What can we do to improve "Adventures R Us?"(choose all that apply)<br>
+            <legend>What Can We Do Better?</legend>
+            <label>What can we do to improve "Adventures R Us?"(choose all that apply)<br><br>
             <input type="checkbox" value="1"> More rides for kids</label><br>
             <label><input type="checkbox" value="2"> More rides for adults</label><br>
             <label><input type="checkbox" value="3"> More games</label><br>
@@ -66,12 +66,11 @@
             <label><input type="checkbox" value="7"> Later closing time</label><br>
             <label><input type="checkbox" value="8"> More parking spaces</label><br>
             <label><input type="checkbox" value="9"> More washrooms</label>
-        </fieldset>
+        </fieldset><br><br>
         <fieldset>
-            <label>Additional comments or suggestions:<br>
+            <legend>Additional comments or suggestions:</legend><br>
                 <textarea name="additional-comments" rows="4" cols="27"></textarea>
-            </label>
-        </fieldset>
+            </fieldset>
         <input type="submit" id="submit" value="Submit">
     </form>
 </body>
