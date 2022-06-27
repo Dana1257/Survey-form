@@ -29,12 +29,19 @@ input[type="text"],[type="email"],[type="tel"]{
 input[type="number"]{
   display:inline-block;
   text-align:center;
-  width:5%;
+  width:35%;
 }
   
  input[type="date"]{
   text-align:center;
+  display:inline-block;
+  width:49%;
 }
+
+.inline-block{
+  display:flex;
+  justify-content:space-around;
+ }
 
 
 
