@@ -4,6 +4,33 @@ input::-webkit-inner-spin-button {
   margin:0;
 }
 
+#survey-form{
+  width:80%;
+  background-color: black;
+  margin-left:auto;
+  margin-right:auto;
+  padding:20px;
+  max-width:550px;
+  color:white;
+}
+
+body{
+  background-color:#D61A46;
+}
+
+#description,.note{
+  font-weight:bold;
+  font-size:1.5rem;
+  text-align:center;
+}
+
+h1{
+  text-align:center;
+  font-weight:bold;
+  font-size:3rem;
+ 
+}
+
 legend{
   text-align:center;
   font-weight:bold;
