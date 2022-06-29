@@ -26,7 +26,7 @@ h1{
   text-align:center;
   font-weight:bold;
   font-size:17px;
- }
+}
 
  #description,.note{
   font-weight:bold;
@@ -46,13 +46,13 @@ legend{
 
 input[type="date"]{
  width:95%;
- }
+}
 
  select{
    margin:2px 0 20px 0;
    width:100%;
    border-radius:25px;
- }
+}
 
 input[type="text"],[type="email"],[type="tel"]{
   width:95%;
@@ -60,10 +60,18 @@ input[type="text"],[type="email"],[type="tel"]{
 
 textarea{
   width:95%;
-  
 }
 
-
+input[type="submit"]{
+  width:86%;
+  display:flex;
+  justify-content:center;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:#0247FE;
+  font-weight:bold;
+  color:white;
+  }
 
 @media(min-width:1200px){
 
@@ -73,19 +81,17 @@ textarea{
   max-width:550px;
   color:white;
   font-size:medium;
-  
-} 
+ } 
   
 #description,.note{
     font-size:1.5rem;
     text-align:center;
   }
   
-  h1{
+h1{
     text-align:center;
     font-weight:bold;
     font-size:3rem;
-   
   }
   
   textarea{
