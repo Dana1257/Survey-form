@@ -58,6 +58,13 @@ input[type="text"],[type="email"],[type="tel"]{
   width:95%;
 }
 
+textarea{
+  width:95%;
+  
+}
+
+
+
 @media(min-width:1200px){
 
 #survey-form{
