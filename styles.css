@@ -4,31 +4,35 @@ input::-webkit-inner-spin-button {
   margin:0;
 }
 
+html,body{
+  background-color:#D61A46;
+  font-size:small;
+  max-width:100%;
+  overflow-x:hidden;
+}
+
 #survey-form{
   width:80%;
   background-color: black;
   margin-left:auto;
   margin-right:auto;
-  padding:20px;
-  max-width:550px;
+  padding:10px;
+  
   color:white;
-}
-
-body{
-  background-color:#D61A46;
-}
-
-#description,.note{
-  font-weight:bold;
-  font-size:1.5rem;
-  text-align:center;
+  font-size:small;
 }
 
 h1{
   text-align:center;
   font-weight:bold;
-  font-size:3rem;
- 
+  font-size:17px;
+ }
+
+ #description,.note{
+  font-weight:bold;
+  text-align:justify;
+  margin-left:10px;
+  margin-right:10px;
 }
 
 legend{
@@ -36,39 +40,75 @@ legend{
   font-weight:bold;
 }
 
-select{
-  margin:5px 0 20px 0;
-  width:100%;
-  border-radius:25px;
-}
-
-textarea{
-  margin:0 0 0 0;
-  width:100%;
-}
-
-input[type="text"],[type="email"],[type="tel"]{
-  display:block;
-  width:95%;
-  padding:5px;
-}
-
-input[type="number"]{
-  display:inline-block;
-  text-align:center;
-  width:35%;
-}
-  
- input[type="date"]{
-  text-align:center;
-  display:inline-block;
-  width:49%;
-}
-
 .inline-block{
   display:flex;
-  justify-content:space-around;
+}
+
+input[type="date"]{
+ width:95%;
  }
+
+ select{
+   margin:2px 0 20px 0;
+   width:100%;
+   border-radius:25px;
+ }
+
+input[type="text"],[type="email"],[type="tel"]{
+  width:95%;
+}
+
+@media(min-width:1200px){
+
+#survey-form{
+  width:85%;
+  padding:20px;
+  max-width:550px;
+  color:white;
+  font-size:medium;
+  
+} 
+  
+#description,.note{
+    font-size:1.5rem;
+    text-align:center;
+  }
+  
+  h1{
+    text-align:center;
+    font-weight:bold;
+    font-size:3rem;
+   
+  }
+  
+  textarea{
+    margin:0 0 0 0;
+    width:100%;
+  }
+  
+  input[type="text"],[type="email"],[type="tel"]{
+    display:block;
+    width:95%;
+    padding:5px;
+  }
+  
+  input[type="number"]{
+    display:inline-block;
+    text-align:center;
+    width:35%;
+  }
+    
+   input[type="date"]{
+    text-align:center;
+    display:inline-block;
+    width:49%;
+  }
+  
+  .inline-block{
+    display:flex;
+    justify-content:space-around;
+   }
+     }
 
 
 
