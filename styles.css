@@ -4,10 +4,6 @@ input::-webkit-inner-spin-button {
   margin:0;
 }
 
-input[type=date]{
-  -webkit-appearance:none;
-}
-
 html,body{
   background-color:#D61A46;
   font-size:small;
@@ -87,6 +83,9 @@ input[type="submit"]{
   }
      }
 
+  input[type=date]{
+    -webkit-appearance:none;
+    }    
 
 
 
