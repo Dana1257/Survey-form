@@ -83,21 +83,7 @@ input[type="submit"]{
   }
      }
 
-  input[type=date]{
-    -webkit-appearance:none;
-    }    
-
-
-
-
-
-
-
-
-
-
-
-  @media(min-width:1200px){
+@media(min-width:1200px){
 
 #survey-form{
   width:85%;
@@ -132,13 +118,15 @@ h1{
   input[type="number"]{
     display:inline-block;
     text-align:center;
-    width:35%;
+    width:7%;
+    padding:3.5px 3.5px;
   }
     
    input[type="date"]{
     text-align:center;
     display:inline-block;
-    width:49%;
+    width:96%;
+    padding:3.5px 3.5px;
   }
   
   .inline-block{
