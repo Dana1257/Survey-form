@@ -42,6 +42,7 @@ legend{
 
 .inline-block{
   display:flex;
+  justify-content:center;
 }
 
 input[type="date"]{
@@ -73,7 +74,27 @@ input[type="submit"]{
   color:white;
   }
 
-@media(min-width:1200px){
+@media(min-width:320px){
+
+  .inline-block{
+    display:flex;
+    flex-direction:column-reverse;
+    gap:10px;
+  }
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+  @media(min-width:1200px){
 
 #survey-form{
   width:85%;
