@@ -4,6 +4,10 @@ input::-webkit-inner-spin-button {
   margin:0;
 }
 
+input[type=date]{
+  -webkit-appearance:none;
+  }    
+
 html,body{
   background-color:#D61A46;
   font-size:small;
@@ -17,7 +21,6 @@ html,body{
   margin-left:auto;
   margin-right:auto;
   padding:10px;
-  
   color:white;
   font-size:small;
 }
@@ -72,6 +75,7 @@ input[type="submit"]{
   background-color:#0247FE;
   font-weight:bold;
   color:white;
+  border-radius:25px;
   }
 
 @media(min-width:320px){
@@ -133,7 +137,4 @@ h1{
     display:flex;
     justify-content:space-around;
    }
-     }
-
-
-
+     }  
