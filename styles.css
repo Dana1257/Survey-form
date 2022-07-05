@@ -78,6 +78,24 @@ input[type="submit"]{
   border-radius:25px;
   }
 
+.thank-you{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size:4rem;
+  border:20px dashed black;
+  text-align:center;
+  padding-right:2vw;
+  padding-left:2vw;
+}
+
+.center{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-top:25vh;
+  }
+
 @media(min-width:320px){
 
   .inline-block{
@@ -137,6 +155,13 @@ input[type="date"]{
     display:flex;
     justify-content:space-around;
    }
+
+.thank-you{
+  padding-left:1.5vw;
+  padding-right:1.5vw;
+
+
+}
 
 ::-webkit-scrollbar{
     width:1.5vw;
