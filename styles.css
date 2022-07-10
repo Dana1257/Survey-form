@@ -66,7 +66,7 @@ textarea{
   width:95%;
 }
 
-input[type="submit"]{
+button{
   width:86%;
   display:flex;
   justify-content:center;
@@ -159,8 +159,6 @@ input[type="date"]{
 .thank-you{
   padding-left:1.5vw;
   padding-right:1.5vw;
-
-
 }
 
 ::-webkit-scrollbar{
