@@ -162,6 +162,10 @@ button{
 
 @media(min-width:1200px){
 
+.top-paragraphs{
+    width:43%;
+   }
+
 #survey-form{
   width:85%;
   padding:20px;
