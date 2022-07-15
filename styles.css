@@ -63,10 +63,10 @@ input[type="date"]{
  width:95%;
 }
 
- select{
-   margin:2px 0 20px 0;
-   width:100%;
-   border-radius:25px;
+select{
+ margin:2px 0 20px 0;
+ width:100%;
+ border-radius:25px;
 }
 
 input[type="text"],[type="email"],[type="tel"]{
@@ -130,7 +130,11 @@ button{
  #survey-form{
   width:75%;
   }
-}
+
+ button{
+  font-size:1.5rem;
+ }
+   }
 
 @media(min-width:769px){
   
@@ -213,6 +217,10 @@ input[type="date"]{
 .thank-you{
   padding-left:1.5vw;
   padding-right:1.5vw;
+}
+
+button{
+  font-size:2rem;
 }
 
 ::-webkit-scrollbar{
