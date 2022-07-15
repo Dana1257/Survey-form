@@ -105,11 +105,18 @@ button{
   font-size:3rem;
 }
 
+.submit-title{
+   display:flex;
+   flex-direction:column;
+   font-size:3.5rem;
+}
+
 .center{
   display:flex;
   justify-content:center;
   align-items:center;
-  margin-top:25vh;
+  margin-top:4vh;
+  flex-direction:column;
   }
 
 @media(min-width:320px){
@@ -186,6 +193,10 @@ h1{
   text-align:center;
   font-size:3rem;
   }
+
+.submit-title{
+  font-size:4.3rem;
+}
   
 textarea{
     margin:0 0 0 0;
