@@ -178,7 +178,11 @@ button{
 
   #survey-form{
     width:60%;
-    font-size:small;
+    font-size:2rem;
+  }
+
+  .improve{
+    font-size:2rem;
   }
 }
 
