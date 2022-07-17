@@ -131,7 +131,15 @@ button{
     flex-direction:column-reverse;
     gap:10px;
   }
-     }
+
+   #survey-form{
+     font-size:medium;
+   }
+
+   .improve{
+     font-size:medium;
+   }
+      }
 
 @media(min-width:481px){
 
