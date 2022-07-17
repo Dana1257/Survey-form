@@ -148,11 +148,16 @@ button{
   }
   
   .top-paragraphs{
-  font-size:1.5rem;
+    font-size:1.5rem;
  }
  
- #survey-form{
-  width:75%;
+  #survey-form{
+   width:75%;
+   font-size:large;
+  }
+
+  .improve{
+    font-size:large;
   }
 
  button{
