@@ -17,7 +17,7 @@
     </div>
     <form id="survey-form">
        <fieldset>
-           <legend><h2>Contact Info and General Information</h2></Contact></legend>
+           <legend><h2>Contact Info and General Information</h2></legend>
            <label id="name-label">First Name:<input id="name" type="text" placeholder="Enter your first name" required></label><br>
            <label>Last Name: <input id="last-name" type="text" placeholder="Enter your last name" required></label><br>
            <label id="email-label">Email: <input type="email" id="email" placeholder="Enter your e-mail address" required> </label><br>
@@ -26,7 +26,6 @@
               <label id="number-label">Age: <input id="number" type="number" min="18" max="100" placeholder="Age" required></label>
               <label> Date of Visit: <input type="date" name="date"  value="2022-06-20" required></label>
             </span>
-           </fieldset>
            </fieldset>
        <h3>How did your hear about "Adventures R Us?"</h3>
             <select id="dropdown">
@@ -64,8 +63,7 @@
         </fieldset><br><br>
         <fieldset>
             <legend><h2>What Can We Do Better?</h2></legend>
-            <label><h3>What can we do to improve "Adventures R Us?"(choose all that apply)</h3>
-            <input type="checkbox" value="1"> More rides for kids</label><br>
+            <label class="improve">What can we do to improve "Adventures R Us?"(choose all that apply)</label><br><br><input type="checkbox" value="1"> More rides for kids<br>
             <label><input type="checkbox" value="2"> More rides for adults</label><br>
             <label><input type="checkbox" value="3"> More games</label><br>
             <label><input type="checkbox" value="4"> More entertainment/shows</label><br>
