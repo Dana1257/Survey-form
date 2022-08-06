@@ -93,7 +93,6 @@ button{
   font-weight:bold;
   color:white;
   border-radius:25px;
-  cursor:pointer;
   font-size:1.3rem;
   }
 
@@ -139,7 +138,7 @@ button{
    }
 
    button{
-     padding:8px;
+     padding:4px;
      font-size:1.8rem;
    }
     }
@@ -173,7 +172,11 @@ button{
   #survey-form{
     width:60%;
   }
+
+  button{
+  cursor:pointer;
 }
+ }
 
 @media(min-width:1024px){
 
