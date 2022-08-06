@@ -84,6 +84,7 @@ textarea{
 
 button{
   width:86%;
+  padding:8px;
   display:flex;
   justify-content:center;
   margin-left:auto;
@@ -149,6 +150,7 @@ button{
 
   button{
   font-size:1.5rem;
+  padding:0
  }
    }
 
@@ -170,8 +172,8 @@ button{
 
 @media(min-width:1024px){
 
-  #survey-form{
-    width:45%;
+#survey-form{
+  width:45%;
 }
 
 .top-paragraphs{
@@ -246,7 +248,7 @@ input[type="date"]{
 
 button{
   font-size:2rem;
-}
+  }
 
 ::-webkit-scrollbar{
     width:1.5vw;
